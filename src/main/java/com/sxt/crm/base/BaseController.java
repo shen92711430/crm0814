@@ -9,7 +9,7 @@ import com.sxt.crm.base.ResultInfo;
 import com.sxt.crm.constant.Constant;
 import com.sxt.crm.exception.ParamException;
 
-public class BaseController {
+public class BaseController {  
 	protected ResultInfo failure(Integer errorCode,String errorMessage){
 		ResultInfo result=new ResultInfo(errorCode,errorMessage,errorMessage);
 		return result;
